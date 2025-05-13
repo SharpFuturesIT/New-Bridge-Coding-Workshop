@@ -6,51 +6,38 @@
     --text-color: #1c331e;
 }
 
-body {
-    font-family: "Grandstander", sans-serif;
-    cursor: url('pizza-cursor-32.png'), default;
+h1 {
+    font-size:16px;
 }
 
-a,
-button,
-#menu li {
-    cursor: url('pizza-pointer-32.png'), pointer;
+h2 {
+    font-size:16px;
 }
 
+h3 {
+    font-size:16px;
+}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+h4 {
+    font-size:16px;
+}
+
+h5 {
+    font-size:16px;
+}
+
+h6 {
+    font-size:16px;
+}
+
 p,
 ul,
 li,
 a,
 span {
-    color: var(--text-color);
+    font-size: 16px;
 }
 
-a {
-    color: var(--text-color);
-    font-weight: bold;
-}
-
-/*--- Navigation Bar ---*/
-
-#nav-bar {
-    background-color: var(--primary-color);
-    padding: 10px;
-}
-
-#nav-bar img {
-    height: 50px;
-}
-
-#nav-bar i {
-    font-size: 1.5em;
-}
 
 #nav-bar i:hover {
     color: #333;
@@ -59,83 +46,12 @@ a {
 
 #nav-bar a:hover {
     color: #333;
-    transition: color 0.3s ease;
 }
 
-/*--- Top Banner ---*/
-
-#home {
-    text-align: center;
-    background: url('https://learn.g2.com/hubfs/most%20profitable%20small%20businesses%20food%20truck.jpg') no-repeat center center/cover;
-}
-
-#home h1,
-#home h2 {
-    color: #fff;
+#nav-bar .logo {
+    height:50px;
 }
 
 .banner-overlay {
-    background-color: var(--secondary-color);
-    opacity: 0.7;
-}
-
-/*--- About Section ---*/
-
-#about {
-    padding: 20px;
-    text-align: center;
-}
-
-/*--- Menu Section ---*/
-
-#menu {
-    padding: 20px;
-    text-align: center;
-}
-
-#menu {
-    background-color: var(--primary-color);
-}
-
-.menu-container>div {
-    width: calc(100% / 3);
-    min-width: 300px;
-}
-
-.menu-images {
-    gap: 10px;
-}
-
-.menu-images>* {
-    width: 10vw;
-    min-width: 100px;
-    max-width: 220px;
-    border-radius: 100%;
-}
-
-@media (max-width: 1200px) {
-
-    .menu-container>.mains {
-        order: 1;
-    }
-
-    .menu-container>.sides {
-        order: 2;
-    }
-
-    .menu-container>.menu-images {
-        order: 3;
-    }
-}
-
-/*--- Footer ---*/
-
-footer {
-    background-color: var(--secondary-color);
-    text-align: center;
-    padding: 20px;
-}
-
-footer * {
-    color: #fff;
+    background: rgb(0 0 0 / 0%);
 }
