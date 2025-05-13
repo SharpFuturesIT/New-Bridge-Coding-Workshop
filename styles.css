@@ -1,9 +1,9 @@
 /*--- General Styling ---*/
 
 :root {
-    --primary-color: #f1e3c9;
-    --secondary-color: #1c331e;
-    --text-color: #1c331e;
+    --primary-color: #fff;
+    --secondary-color: #777;
+    --text-color: #000;
 }
 
 h1 {
@@ -53,5 +53,6 @@ span {
 }
 
 .banner-overlay {
-    background: rgb(0 0 0 / 0%);
+    background: #000000;
+    opacity: 0;
 }
