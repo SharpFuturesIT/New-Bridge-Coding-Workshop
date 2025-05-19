@@ -52,7 +52,12 @@ span {
     height:50px;
 }
 
+#home {
+    background-image: url();
+}
+
 .banner-overlay {
     background: #000000;
     opacity: 0;
 }
+
