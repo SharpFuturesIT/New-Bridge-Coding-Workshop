@@ -1,0 +1,63 @@
+/*--- General Styling ---*/
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #777;
+    --text-color: #000;
+}
+
+h1 {
+    font-size:16px;
+}
+
+h2 {
+    font-size:16px;
+}
+
+h3 {
+    font-size:16px;
+}
+
+h4 {
+    font-size:16px;
+}
+
+h5 {
+    font-size:16px;
+}
+
+h6 {
+    font-size:16px;
+}
+
+p,
+ul,
+li,
+a,
+span {
+    font-size: 16px;
+}
+
+
+#nav-bar i:hover {
+    color: #333;
+}
+
+
+#nav-bar a:hover {
+    color: #333;
+}
+
+#nav-bar .logo {
+    height:50px;
+}
+
+#home {
+    background-image: url();
+}
+
+.banner-overlay {
+    background: #000000;
+    opacity: 0;
+}
+
