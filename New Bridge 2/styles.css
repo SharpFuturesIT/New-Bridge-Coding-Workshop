@@ -1,43 +1,58 @@
 /*--- General Styling ---*/
 
 :root {
-    --primary-color: #fff;
-    --secondary-color: #777;
-    --text-color: #000;
+    --primary-color: #115fb0;
+    --secondary-color: #fff;
+    --text-color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
     font-size:16px;
+    color: #fff;
 }
 
 h2 {
     font-size:16px;
+    color:#fff
 }
 
 h3 {
     font-size:16px;
+    color:#fff
 }
 
 h4 {
     font-size:16px;
+    color: #fff;
 }
 
 h5 {
     font-size:16px;
+    color: #fff;
 }
 
 h6 {
     font-size:16px;
+    color: #fff;
 }
 
-p,
+p
+{
+    color: #fff;
+}
 ul,
 li,
 a,
 span {
     font-size: 16px;
 }
-
+thead{
+    color: #fff;
+}
+td {
+color: #fff;
+}
 
 #nav-bar i:hover {
     color: #333;
@@ -45,11 +60,12 @@ span {
 
 
 #nav-bar a:hover {
-    color: #333;
+    color: #0e28ac;
 }
 
 #nav-bar .logo {
     height:50px;
+    color:#fff;
 }
 
 #home {
@@ -57,7 +73,24 @@ span {
 }
 
 .banner-overlay {
-    background: #000000;
-    opacity: 0;
+    background: #115fb0;
+    opacity: 50;
+}
+table {
+    padding: 10px;
+    margin: top 200px;
+    border:10px dotted white;
 }
 
+.button {
+display:inline-block;
+background-color: #fff;
+padding: 10px;
+border-radius: 5px;
+font-size: 16px;
+margin-left: 10px;
+}
+
+.button p {
+    color: #115fb0;
+}
