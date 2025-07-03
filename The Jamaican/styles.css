@@ -1,0 +1,65 @@
+/*--- General Styling ---*/
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #777;
+    --text-color: #ffffff;
+}
+
+h1 {
+    font-size:32px;
+}
+
+h2 {
+    font-size:100px;
+}
+
+h3 {
+    font-size:16px;
+}
+
+h4 {
+    font-size:16px;
+}
+
+h5 {
+    font-size:16px;
+}
+
+h6 {
+    font-size:16px;
+}
+
+p,
+ul,
+li,
+a,
+span {
+    font-size: 16px;
+}
+
+
+#nav-bar i:hover {
+    color: #000000;
+}
+
+
+#nav-bar a:hover {
+    color: #333;
+}
+
+#nav-bar .logo {
+    height:50px;
+}
+
+#home {
+    background-image: url(jamaicaflag.png);
+}
+
+.banner-overlay {
+    background: #ffffff;
+    opacity: 0.5;
+}
+.center {
+  text-align: center;
+}

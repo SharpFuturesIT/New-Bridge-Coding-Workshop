@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chill Grill - We Chill, You Grill</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div>
+                    <div class="logo">
+                        <img src="Combination Mark Logo with Grill and Smoke.png" alt="">
+                    </div>
+                    <div class="slogan">We Chill, You Grill</div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Welcome to Flavour Town</h1>
+            <p>The Famous Smoke Yard Where Amazing Happens</p>
+            <a href="#menu" class="cta-button">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About The Chill Grill</h2>
+                    <p>Welcome to Chill and Grill, the famous smoke yard where we sell amazing foods and drinks! Our passion is taking you on a tasty route through flavour town with every bite.</p>
+                    <p>From perfectly smoked chicken meals to our signature pulled pork, every dish is crafted with love and attention to detail. Our alcohol drinks perfectly complement our smoky creations.</p>
+                    <p>What sets us apart? Our incredible staff will make sure you have a nice stay, always checking to see if you need help, any form of request, or direction. We're here to embark you on this incredible culinary journey!</p>
+                </div>
+                <div class="about-image">
+                    <div>🍖</div>
+                    <div>Authentic Smokehouse Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2>Our Amazing Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-icon">🍗</div>
+                    <h3>Chicken Meals</h3>
+                    <p>Perfectly smoked chicken prepared with our secret blend of spices. Tender, juicy, and full of flavor that'll keep you coming back for more.</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-icon">🥩</div>
+                    <h3>Pulled Pork Meals</h3>
+                    <p>Our signature pulled pork, slow-cooked to perfection. Smoky, tender, and melts in your mouth - a true taste of the South.</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-icon">🍺</div>
+                    <h3>Alcohol Drinks</h3>
+                    <p>Carefully curated selection of beers, wines, and cocktails that pair perfectly with our smoky BBQ creations.</p>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-icon">👨‍🍳</div>
+                    <h3>Chef's Special</h3>
+                    <p>Ask our staff about today's special creation! Our chef's recommendations change regularly, featuring seasonal ingredients and innovative flavors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="container">
+            <h2>Our Service Promise</h2>
+            <p>At The Chill Grill, we don't just serve food - we create experiences</p>
+            <div class="service-features">
+                <div class="service-feature">
+                    <h3>🤝 Attentive Service</h3>
+                    <p>Our staff will always ensure you have everything you need, checking regularly to see if you need help or directions.</p>
+                </div>
+                <div class="service-feature">
+                    <h3>🏠 Comfortable Atmosphere</h3>
+                    <p>Relax in our chill environment while we take care of all the grilling. Your comfort is our priority.</p>
+                </div>
+                <div class="service-feature">
+                    <h3>🌟 Expert Guidance</h3>
+                    <p>Need recommendations? Our knowledgeable staff will guide you through our menu and help you discover new favorites.</p>
+                </div>
+                <div class="service-feature">
+                    <h3>🎯 Personalized Experience</h3>
+                    <p>Every guest is unique, and we tailor our service to ensure you have the perfect dining experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>📍 123 Smoke Yard Lane<br>
+                    Flavour Town, FT 12345</p>
+                    <p>📞 (555) 123-GRILL</p>
+                    <p>✉️ hello@chillgrill.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Hours</h3>
+                    <p>Monday - Thursday: 11am - 10pm<br>
+                    Friday - Saturday: 11am - 11pm<br>
+                    Sunday: 12pm - 9pm</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p>📱 @ChillGrillOfficial<br>
+                    📘 The Chill Grill<br>
+                    📸 @ChillGrillEats</p>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #444; padding-top: 2rem; margin-top: 2rem;">
+                <p>&copy; 2025 The Chill Grill. All rights reserved. | We Chill, You Grill</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add some interactive elements
+        document.querySelectorAll('.menu-item').forEach(item => {
+            item.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px) scale(1.02)';
+            });
+           
+            item.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
+
